@@ -39,7 +39,7 @@ interessar, saiba que tudo pode ser aprendido. Basta dedicação.
 
 # Jornada
 
-- [Ato I - Portas, portas e mais portas](acts/act_1.pt-BR.md);
+- [Ato I - Porta para todos os lugares](acts/act_1.pt-BR.md);
 
 ---
 _Nota da tradução: ¹Handlers (Manipuladores, em tradução livre), no protocolo web, são pontos de passagem onde eventos ocorrem, podendo 
