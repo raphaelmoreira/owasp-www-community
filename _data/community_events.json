@@ -2,12 +2,32 @@
     {
         "group": "Austin",
         "repo": "www-chapter-austin",
+        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
+        "date": "2024-03-28",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/299536930",
+        "timezone": "America/Chicago",
+        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
         "name": "OWASP Austin Chapter Monthly Meeting - March 2024 (Online)",
         "date": "2024-03-26",
         "time": "11:30-05:00",
         "link": "https://www.meetup.com/owasp-austin-chapter/events/298206989",
         "timezone": "America/Chicago",
         "description": "30 minutes of meet-and-greet and Chapter information, then the Presentation!"
+    },
+    {
+        "group": "Austin",
+        "repo": "www-chapter-austin",
+        "name": "Study Group: \u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram",
+        "date": "2024-03-21",
+        "time": "12:00-05:00",
+        "link": "https://www.meetup.com/owasp-austin-chapter/events/299533849",
+        "timezone": "America/Chicago",
+        "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
     },
     {
         "group": "Austin",
@@ -38,6 +58,16 @@
         "link": "https://www.meetup.com/owasp-austin-chapter/events/299385377",
         "timezone": "America/Chicago",
         "description": "From: https://owasp.org/www-chapter-austin/studygroups.html\n\nThe Austin OWASP Study Group is currently working on learning the [\u201cWhat is ChatGPT Doing and Why Does it Work\u201d by Stephen Wolfram](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)\n\n> **When:** The study group meets weekly on Thursdays from 12:00 to 1:00 PM\n\n> **Where:** We are looking for a location to meet in-person. Till then study group is held virtually. Either join the specific channel within Slack AustinOWASP (see below) or [OWASP Austin on Meetup](https://www.meetup.com/OWASP-Austin-Chapter/) to obtain details.\n\n> **How to follow:** Status of meetings and discussion of topic will be communicated through the [Slack AustinOWASP](https://austinowasp.slack.com/). Following is the specific channel for collaborating on the topic:\n\n```\n#chat-gpt-wolfram\n```\n\n> **Additional Information:** If any questions related to the study group, please contact the the group coordinator, @griff in the OWASP Austin Slack workplace."
+    },
+    {
+        "group": "Bay Area",
+        "repo": "www-chapter-bay-area",
+        "name": "March Meetup",
+        "date": "2024-03-19",
+        "time": "17:00-07:00",
+        "link": "https://www.meetup.com/bay-area-owasp/events/299576398",
+        "timezone": "America/Los_Angeles",
+        "description": "We're thrilled to announce our March meetup, graciously hosted by the fantastic teams at P0 Security and Endor Labs. Look forward to some outstanding talks, fantastic food/ beverages and meet best brains in the industry.\n\nAgenda:\n5:00 - Check in, grab some food/drinks and network\n5:45 - 6:30 - Top 10 insecure-by-default IAM configurations\n6:30-7:15 - Guardians and Glitches: Navigating the Duality of Gen AI in AppSec\n7:15 - 8:00 - Top 10 Open Source Software (OSS) Risks\n8:00 - Doors close\n\n**Talk #1**: 10 insecure-by-default IAM configurations\n**Abstract**: This presentation delves into the ten most prevalent insecure-by-default IAM configurations encountered on AWS and GCP. Notable examples include the default compute service account assuming an Editor role in GCP. We'll identify these vulnerabilities and offer practical strategies for easy mitigation. By addressing these common pitfalls, security teams can enhance security posture by removing the risk inherent in the default configuration.\n\n**Speaker**: Gergely Danyi is co-founder and CTO at P0 Security where he is on a mission to make cloud entitlements more secure. Previously, he worked at Splunk and wore a data scientist hat at multiple start-ups.\n\n**Talk2#**Guardians and Glitches: Navigating the Duality of Gen AI in AppSec\n**Abstract:** The speaker will present a Tale of Two AIs. First, we'll delve into the intricacies of Gen AI and then discuss the unique security risks posed by Gen AI, including adversarial attacks, unintended biases, and emergent behaviors. We'll then explore how Gen AI can be utilized to strengthen security defenses by automating vulnerability detection, assisting in threat analysis, and even generating secure code. This talk will equip you with the knowledge to navigate the complex landscape of Gen AI security by building an adoption friendly responsible AI program at your organization. Join us as we explore the glitches and the guardians, and discover how to leverage the power of Gen AI to secure your applications in the future.\n\n**Talk #3:** Top 10 Open Source Software (OSS) Risks\n**Abstract:** This talk will feature the Top 10 OSS Risks ([https://www.endorlabs.com/top-10-open-source-risks](https://www.endorlabs.com/top-10-open-source-risks)) and include examples and case studies of notable OSS incidents tied to the risks discussed. It will also provide actionable takeaways for security and technology leaders to equip them to securely consume and utilize OSS in their enterprise environments and software/products while mitigating some of the most relevant risks associated with OSS.\n**Speaker:**TBD"
     },
     {
         "group": "Brisbane",
@@ -92,7 +122,7 @@
     {
         "group": "Edmonton",
         "repo": "www-chapter-edmonton",
-        "name": "Protecting Our Tech: Fortinet's OT Security Talk at OWASP Edm 5PM mst! \ud83c\udf10\ud83d\udd12\ud83c\udfa4",
+        "name": "Protecting Our Tech: Fortinet's OT Security Talk at OWASP Edm 5PM mst! ",
         "date": "2024-03-26",
         "time": "17:00-06:00",
         "link": "https://www.meetup.com/owasp-edmonton/events/299499883",
@@ -237,7 +267,7 @@
         "time": "19:00Z",
         "link": "https://www.meetup.com/owasp-peterborough/events/298926492",
         "timezone": "Europe/London",
-        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over food & drinks\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
+        "description": "Thirsty Thursdays.\n\nSame time. Same day each month. Differing places. Good chat.\n\n**What?**\n\n* Casual conversation over a drink\n\n**Where?**\n\n* It may differ each month, bars, restaurant and eateries around Peterborough\n\n**When?**\n\n* \\~ The last Thursday of each month\n\nEverybody welcome, the next event details will be chosen from the last (and so on!)."
     },
     {
         "group": "Phoenix",
@@ -258,16 +288,6 @@
         "link": "https://www.meetup.com/owasp-recife-meetup-group/events/298972631",
         "timezone": "America/Recife",
         "description": "**[O que vai rolar?]**\nO pr\u00f3ximo meeting do OWASP Recife ocorrer\u00e1 no dia 13/03/2024 \u00e0s 20:00 com o t\u00edtulo: \"Detec\u00e7\u00e3o de Vulnerabilidades em C\u00f3digo-Fonte com I.A\" conduzida por Maria Fernanda Rodrigues, da Tempest Security Intelligence.\n\nA palestrante demonstrar\u00e1 uma forma de detec\u00e7\u00e3o de vulnerabilidades em c\u00f3digo-fonte, utilizando o modelo n\u00e3o supervisionado de aprendizado de m\u00e1quina FICS (Functionally-similar yet Inconsistent Code). O primeiro detector de bugs 'machine learning-based' que identifica e aponta inconsist\u00eancias no c\u00f3digo como indicadores de poss\u00edveis vulnerabilidades de seguran\u00e7a.\n\n**[Formato do encontro]**\nPalestra online\n\n**[Shortbio de Maria]**\nMaria Fernanda Rodrigues\nEstagi\u00e1ria em Pesquisa e Desenvolvimento\nTempest Security Intelligence\n\n**[Inscri\u00e7\u00f5es]**\nTOTALMENTE GRATUITO!\nEm breve iremos disponibilizar um link para o even3 para um credenciamento que ser\u00e1 disponibilizado o link para a palestra."
-    },
-    {
-        "group": "Sastra University",
-        "repo": "www-chapter-sastra-university",
-        "name": "Quiz time ",
-        "date": "2024-03-02",
-        "time": "09:00+05:30",
-        "link": "https://www.meetup.com/owasp-sastra-university-meetup-group/events/299335823",
-        "timezone": "Asia/Kolkata",
-        "description": "**Get ready for an exhilarating test of knowledge and wit! Join us for the quiz where participants will engage in a battle of brains, tackling questions ranging from cybersecurity to general trivia.**"
     },
     {
         "group": "Seattle",
