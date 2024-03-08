@@ -27,15 +27,20 @@ Se você não faz ideia do que trata o certificado GIAC e tem zero contribuiçã
 precisa de um início, e é esse o propósito dessa iniciativa.
 
 # Requisitos Técnicos
-É de suma importância que alguns requisitos sejam atendidos, a título de tornar o caminho mais leve. Embora não seja mandatório, 
-é altamente recomendável que você possua a seguinte combinação de habilidades técnicas:
+É de suma importância que alguns requisitos sejam atendidos, a título de tornar o caminho mais leve e compreenssível. Embora nã
+o seja mandatório, é altamente recomendável que você possua a seguinte combinação de habilidades técnicas:
 
 - Conhecimento avançado em programação (qualquer linguagem);
 - Proficiência no uso de sistemas operacionais via terminal (Unix e Windows);
-- Experiência em protocolos e redes (tcp, udp, etc...).
+- Experiência em protocolos e redes (tcp, udp, etc...);
+- Autonomia para aprender.
 
 Se você não tiver nenhuma delas, e está aqui apenas pela curiosidade, siga em frente sem receio, afinal, se o conteúdo lhe 
 interessar, saiba que tudo pode ser aprendido. Basta dedicação.
+
+> DICA: o roteiro não visa detalhes minuciosos sobre as ferramentas utilizadas, mas sempre deixará o link oficial para a
+> documentação, permitindo que você aprenda. É importante que, cada vez que isso ocorrer, que você interrompa a leitura e
+> se aprofunde na ferramenta antes.
 
 # Jornada
 
