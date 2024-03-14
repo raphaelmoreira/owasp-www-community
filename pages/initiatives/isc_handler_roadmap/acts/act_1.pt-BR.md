@@ -17,6 +17,13 @@ mais é que um endereço único daquilo que você procura. Como uma lista telef�
 ao invés de ruas, com a internet é igual: é mais fácil lembrarmos de nomes do que uma sequência numérica. E esses nomes, 
 chamamos de [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System).
 
+# O que você irá aprender ao final desse ato:
+- O que é IP, como descobrir o seu e dos sites que visitou;
+- O que são Portas e qual sua relação com o Ip;
+- Como Ip e Porta, juntos, estabelecem conexões simultâneas;
+- Como explorar serviços expostos na internet;
+- Os riscos de um serviço mal configurado;
+
 ## Protocolo de Internet
 Quando você acessa um site qualquer, como o https://google.com.br, na verdade, seu computador está acessando um IP (ex: `142.251.129.99`). 
 O que ocorre é que no meio do caminho, o DNS entra em cena e busca esse nome em um catálogo, e localiza o IP equivalente. 
@@ -109,25 +116,30 @@ focar apenas num único sistema operacional, que será o Linux. Precisamente, at
 > ATENÇÃO: todas as etapas à seguir são de cunho educativo e não foram executadas em ambiente reais. Efetuar os processos a
 > seguir, sem o conscentimento do alvo, é crime cibernético. Seja ético, pois estamos aqui para nos defender e não comprometer.
 
-Uma ferramenta boa para nos dar apoio nesta demanda, é o Nmap. Com ele, basta informar o alvo para que possamos obter detalhes
-significativos sobre quais serviços estão abertos:
+Uma ferramenta boa para nos dar apoio nesta demanda, é o Nmap. Essa sondagem é feita usando-se o protocolo básico de "aperto de mãos",
+entre origem e destino. O Nmap enviar uma solicitação (SYN) e espera uma resposta (ACK). Caso afirmativo, isso é o indicativo
+de que aquele destino está aberto e aguardando conexões. Logo, podemos obter detalhes significativos sobre quais serviços são
+esses:
 
 ```bash
-nmap RND=20 dominio.com
+nmap dominio.com
 
 --resultados
 ```
-Os resultados que podemos obter vão variar de alvo para alvo, logo, o intuito aqui é saber quais são. Alguns, são esperados, 
+Os resultados que podemos obter podem variar de alvo para alvo, logo, o intuito aqui é saber quais são. Alguns, são esperados, 
 como é o caso da 53 (domain), 443 (https), outras, podemos questionar se precisam realmente estar disponíveis 24/7, como 22 (SSH),
 43 (SMTP) enquanto de algumas definitivamente não deveria estar ali, como 1433 (sql server), 80 (http) ou 23 (Telnet).
 
 É sempre bom conferir a tabela de portas, para assegurar se ela deveria realmente estar disponível para qualquer um. E se estiver,
 providencie a remoção.
 
+> ATENÇÃO: cada execução equivale a uma requisição, logo, execuções subsequentes ou initerruptas podem causar falhas, lentidão ou
+> mesmo bloqueio do serviço, pois defesas como WAF podem agir. Não faça isso de forma clandestina.
+
 ## Resumo
-Aprendemos, nesse primeito ato, a importância de não só conhecer como as conexões entre computadores ocorrer (Ip), como exploramos
-como as portas permite que elas ocorram. Também vimos que configurações equivocadas podem tornar público, serviços que você
-não quer que todo mundo acesse, já que se a porta está disponível, alguém pode bater... ou chutar até cair.
+Aprendemos, nesse primeito ato, a importância de não só conhecer como as conexões entre computadores ocorrem (Ip), como exploramos 
+a importância das Portas. Também vimos que configurações equivocadas podem tornar público serviços que deveriam estar
+acessíveis e como a preocupação é importante, afinal, se a porta está disponível, alguém pode bater... ou chutar até ela cair.
 
 ---
 

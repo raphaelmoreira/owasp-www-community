@@ -13,9 +13,8 @@ tags: ["cybersecurity"]
 
 # ISC - O roteiro para se tornar um Handler
 Handlers¹ são profissionais voluntários que doam seu valioso tempo na detecção e investigação de incidentes e anomalias, 
-provenientes de ataques cibernéticos. Atualmente formado por [16 pessoas](https://isc.sans.edu/handler_list.html), os 
-Handlrers contribuem regularmente sobre o tema, seja elaborando ideias, pontuando observações ou apresentando casos reais 
-de forma educativa.
+provenientes de ataques cibernéticos. Atualmente formado por [16 pessoas](https://isc.sans.edu/handler_list.html), os Handlrers contribuem regularmente sobre o 
+tema, seja elaborando ideias, pontuando observações ou apresentando casos reais de forma educativa.
 
 A jornada para se tornar um Handler é longa, envolta de desafios e descobertas. O [roadmap oficial](https://isc.sans.edu/handlerroadmap.html)
 contém detalhes minuciosos sobre o processo, bem como os requisitos a serem seguidos. Dentre eles, a única que contextualmente 
@@ -26,21 +25,29 @@ vale destaque aqui, é a:
 Se você não faz ideia do que trata o certificado GIAC e tem zero contribuição na comunidade, não desanime, pois todo objetivo 
 precisa de um início, e é esse o propósito dessa iniciativa.
 
+> ATENÇÃO: as técnicas demonstradas nesse conteúdo são as mesmas usadas por cibercriminoso, na tentativa de obter vantagem
+> sobre um serviço ou empresa. Contudo, o intuito desse material é orientar novos especialistas no assunto, com viés de 
+> proteção, para que juntos possamos, cada vez mais, dar segurança a nossos sistemas. Seja ético. Seja responsável.
+
 # Requisitos Técnicos
-É de suma importância que alguns requisitos sejam atendidos, a título de tornar o caminho mais leve e compreenssível. Embora nã
-o seja mandatório, é altamente recomendável que você possua a seguinte combinação de habilidades técnicas:
+É de suma importância que alguns requisitos sejam atendidos, a título de tornar o caminho mais leve e compreenssível. Embora 
+não seja mandatório, é altamente recomendável que você possua a seguinte combinação de habilidades técnicas:
 
 - Conhecimento avançado em programação (qualquer linguagem);
 - Proficiência no uso de sistemas operacionais via terminal (Unix e Windows);
 - Experiência em protocolos e redes (tcp, udp, etc...);
 - Autonomia para aprender.
 
-Se você não tiver nenhuma delas, e está aqui apenas pela curiosidade, siga em frente sem receio, afinal, se o conteúdo lhe 
-interessar, saiba que tudo pode ser aprendido. Basta dedicação.
+> ATENÇÃO: todas as ferramentas, comandos e técnicas usadas nos tópicos à seguir serão efetuadas em cima de um ambiente 
+> Linux. Se você não está habituado a isso, é altamente recomendável que você não só prepare seu ambiente, como entenda 
+> cada parte do processo, antes de prosseguir. Você pode ver detalhes da montagem desse ambiente em 
+> [Ato 0 - Instalando o Linux](acts/act_0.pt-BR.md).
 
-> DICA: o roteiro não visa detalhes minuciosos sobre as ferramentas utilizadas, mas sempre deixará o link oficial para a
-> documentação, permitindo que você aprenda. É importante que, cada vez que isso ocorrer, que você interrompa a leitura e
-> se aprofunde na ferramenta antes.
+Caso você esteja aqui apenas pela curiosidade, siga em frente sem receio, afinal, se o conteúdo lhe interessar, 
+saiba que tudo pode ser aprendido. Basta dedicação.
+
+> ATENÇÃO! O roteiro não visa detalhes minuciosos sobre cada aspecto, portanto, sempre que se deparar com o ícone 🔍️, e não
+> souber do que se trata, dedique, sem pressa, um tempo considerável entendendo este item, antes de prosseguir.
 
 # Jornada
 
