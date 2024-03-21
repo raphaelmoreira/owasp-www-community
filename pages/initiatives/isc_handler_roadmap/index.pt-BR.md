@@ -25,7 +25,7 @@ vale destaque aqui, é a:
 Se você não faz ideia do que trata o certificado GIAC e tem zero contribuição na comunidade, não desanime, pois todo objetivo 
 precisa de um início, e é esse o propósito dessa iniciativa.
 
-> ATENÇÃO: as técnicas demonstradas nesse conteúdo são as mesmas usadas por cibercriminoso, na tentativa de obter vantagem
+> **ATENÇÃO**: as técnicas demonstradas nesse conteúdo são as mesmas usadas por cibercriminoso, na tentativa de obter vantagem
 > sobre um serviço ou empresa. Contudo, o intuito desse material é orientar novos especialistas no assunto, com viés de 
 > proteção, para que juntos possamos, cada vez mais, dar segurança a nossos sistemas. Seja ético. Seja responsável.
 
@@ -38,16 +38,16 @@ não seja mandatório, é altamente recomendável que você possua a seguinte co
 - Experiência em protocolos e redes (tcp, udp, etc...);
 - Autonomia para aprender.
 
+> ATENÇÃO! O roteiro não visa detalhes minuciosos sobre cada aspecto, portanto, sempre que se deparar com o ícone 🔍️, e não
+> souber do que se trata, dedique, sem pressa, um tempo considerável entendendo este item, antes de prosseguir.
+
+Caso você esteja aqui apenas pela curiosidade, siga em frente sem receio.
+
 > ATENÇÃO: todas as ferramentas, comandos e técnicas usadas nos tópicos à seguir serão efetuadas em cima de um ambiente 
 > Linux. Se você não está habituado a isso, é altamente recomendável que você não só prepare seu ambiente, como entenda 
 > cada parte do processo, antes de prosseguir. Você pode ver detalhes da montagem desse ambiente em 
 > [Ato 0 - Instalando o Linux](acts/act_0.pt-BR.md).
 
-Caso você esteja aqui apenas pela curiosidade, siga em frente sem receio, afinal, se o conteúdo lhe interessar, 
-saiba que tudo pode ser aprendido. Basta dedicação.
-
-> ATENÇÃO! O roteiro não visa detalhes minuciosos sobre cada aspecto, portanto, sempre que se deparar com o ícone 🔍️, e não
-> souber do que se trata, dedique, sem pressa, um tempo considerável entendendo este item, antes de prosseguir.
 
 # Jornada
 

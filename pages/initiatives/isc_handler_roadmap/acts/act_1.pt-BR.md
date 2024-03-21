@@ -133,7 +133,7 @@ como é o caso da 53 (domain), 443 (https), outras, podemos questionar se precis
 É sempre bom conferir a tabela de portas, para assegurar se ela deveria realmente estar disponível para qualquer um. E se estiver,
 providencie a remoção.
 
-> ATENÇÃO: cada execução equivale a uma requisição, logo, execuções subsequentes ou initerruptas podem causar falhas, lentidão ou
+> **ATENÇÃO**: cada execução equivale a uma requisição, logo, execuções subsequentes ou initerruptas podem causar falhas, lentidão ou
 > mesmo bloqueio do serviço, pois defesas como WAF podem agir. Não faça isso de forma clandestina.
 
 ## Resumo
@@ -144,5 +144,5 @@ acessíveis e como a preocupação é importante, afinal, se a porta está dispo
 ---
 
 | [Retornar ao índice](../index.pt-BR.md) | Ir para o Ato 2 (em breve) |
-|-----------------------------------------|----------------------------|
+|---------------------------|----------------------------|
 
