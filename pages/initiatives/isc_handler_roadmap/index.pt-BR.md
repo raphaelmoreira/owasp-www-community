@@ -45,7 +45,8 @@ não seja mandatório, é altamente recomendável que você possua a seguinte co
 # Jornada
 
 - [Ato 0 - Preparação](acts/act_0.pt-BR.md)
-- [Ato I - Porta para todos os lugares](acts/act_1.pt-BR.md);
+- [Ato I - Observando por trás da cortina](acts/act_1.pt-BR.md)
+- [Ato II - Porta para todos os lugares](acts/act_2.pt-BR.md);
 
 ---
 _Nota da tradução: o nome ¹Handlers (Manipuladores, em tradução livre) é usado nesse contexto, pois no protocolo web, 
