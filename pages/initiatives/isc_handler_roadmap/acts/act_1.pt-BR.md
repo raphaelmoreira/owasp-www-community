@@ -5,21 +5,23 @@ title: "Ato I - Portas, portas e mais portas"
 author: "Raphael Moreira"
 contributors: 
 permalink: /initiatives/isc_handler_roadmap/acts
-tags: ["cybersecurity", "port", "tcp", "udp", "scan"]
+tags: ["cybersecurity", "port", "tcp", "udp", "scan", "nmap"]
 
 ---
 
 {% include writers.html %}
 
+[🇺🇸](act_1.md) | 🇧🇷
 # Ato I - Porta para todos os lugares
-Toda a internet funciona em cima de um [Protocolo de Internet (IP)](https://en.wikipedia.org/wiki/IP_address), que nada 
-mais é que um endereço único daquilo que você procura. Como uma lista telefônica, onde pesquisamos nomes de estabelecimentos 
-ao invés de ruas, com a internet é igual: é mais fácil lembrarmos de nomes do que uma sequência numérica. E esses nomes, 
-chamamos de [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System).
+Toda a internet funciona em cima de um [🔍Protocolo de Internet (IP)](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP) e 
+sua respectiva [🔍Porta](https://pt.wikipedia.org/wiki/Porta_(redes_de_computadores)), que nada mais faz que gerar um endereço 
+único do serviço que você procura. Como uma lista telefônica, onde pesquisamos os nomes dos estabelecimentos para encontrar 
+a rua e o número, com a internet é igual: é mais fácil lembrarmos de nomes ao invés de uma sequência numérica. E a esses 
+nomes, chamamos de [🔍Sistema de Nomes de Domínio (DNS)](https://pt.wikipedia.org/wiki/Sistema_de_Nomes_de_Dom%C3%ADnio).
 
-# O que você irá aprender ao final desse ato:
+## O que você irá aprender ao final desse ato:
 - O que é IP, como descobrir o seu e dos sites que visitou;
-- O que são Portas e qual sua relação com o Ip;
+- O que são Portas e qual sua relação com o IP;
 - Como Ip e Porta, juntos, estabelecem conexões simultâneas;
 - Como explorar serviços expostos na internet;
 - Os riscos de um serviço mal configurado;
@@ -144,5 +146,5 @@ acessíveis e como a preocupação é importante, afinal, se a porta está dispo
 ---
 
 | [Retornar ao índice](../index.pt-BR.md) | Ir para o Ato 2 (em breve) |
-|---------------------------|----------------------------|
+|-----------------------------------------|----------------------------|
 

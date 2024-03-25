@@ -32,7 +32,6 @@ to combat malicious attackers. The ISC collects millions of intrusion detection 
 addresses in more than 50 countries, supported by the [SANS Institute](https://www.sans.org/about/).
 
 The ISC is maintained by volunteers who donate their time to analyze and report security incidents, either through the
-[DShield Honeypot](https://isc.sans.edu/howto.html) or through their elevated knowledge, as a  
-[Handler](https://isc.sans.edu/handler_list.html).
+[DShield Sensor](https://isc.sans.edu/howto.html) or through their elevated knowledge, as a [Handler](https://isc.sans.edu/handler_list.html).
 
-Now you can tread the path to become one of them. So [let's go!](isc_handler_roadmap)
+Now you can follow the path to become one of them. So [let's go!](isc_handler_roadmap/index.md)
