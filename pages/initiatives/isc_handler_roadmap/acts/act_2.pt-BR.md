@@ -139,7 +139,7 @@ providencie a remoção.
 > mesmo bloqueio do serviço, pois defesas como WAF podem agir. Não faça isso de forma clandestina.
 
 ## Resumo
-Aprendemos, nesse primeito ato, a importância de não só conhecer como as conexões entre computadores ocorrem (Ip), como exploramos 
+Aprendemos, nesse segundo ato, a importância de não só conhecer como as conexões entre computadores ocorrem (Ip), como exploramos 
 a importância das Portas. Também vimos que configurações equivocadas podem tornar público serviços que deveriam estar
 acessíveis e como a preocupação é importante, afinal, se a porta está disponível, alguém pode bater... ou chutar até ela cair.
 
