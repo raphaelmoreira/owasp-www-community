@@ -49,6 +49,5 @@ não seja mandatório, é altamente recomendável que você possua a seguinte co
 - [Ato I - Observando por trás da cortina](acts/act_1.pt-BR.md);
 - [Ato II - Porta para todos os lugares](acts/act_2.pt-BR.md).
 
----
 >_**Nota da tradução**: o nome ¹Handlers (Manipuladores, em tradução livre) é usado nesse contexto, pois no protocolo web, 
 "Handlers" são pontos de passagem onde eventos ocorrem, podendo ser observados, capturados ou anulados._ 

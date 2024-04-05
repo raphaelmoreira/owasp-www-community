@@ -39,8 +39,7 @@ Caso não se sinta à vontade com essa ferramenta de virtualização, o site dis
 Assim que seu ambiente estiver funcional, isto é, virtualização configurada e distribuições funcional, lembre-se que tudo 
 que vamos mostrar no decorrer dessa iniciativa, requer elevação de privilégios (acesso administrativo). No entanto, é altamente 
 recomendável que você não use o usuário **root** para isso. Procure criar outro, marcando-o como **Administrador**. Embora 
-pareça a mesma coisa, não é. O usuário **root** possui privilégios que podem te colocar em risco, se usado de maneira incorreta.
-
+pareça a mesma coisa, não é. O usuário **root** possui privilégios que podem te colocar em risco, se usado de maneira incorreta. 
 Outro item relevante é ativar a criptograria da imagem virtualizada. Ainda que você esteja em estágios iniciais de
 aprendizado, procure internalizar a cultura de proteger também o ambiente em que você irá trabalhar, já que somente assim
 você garantirá, desde o início, a privacidade do seu trabalho.
