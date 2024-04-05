@@ -14,9 +14,8 @@ tags: ["cybersecurity", "http", "network", "response header", "xss", ""]
 [🇺🇸](act_1.md) | 🇧🇷
 # Ato I - Observando por trás da cortina
 Toda vez que um site é acessado, muita coisa ocorre por baixo dos panos, sob o protocolo [🔍Http](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
-Isso é facilmente observado através das ferramentas de desenvolvedor do seu navegador, como por exemplo, o [🔍Google Chrome DevTools](https://developer.chrome.com/docs/devtools/open?hl=pt-br).
-Pela aba [🔍Rede (Network)](https://developer.chrome.com/docs/devtools/network?hl=pt-br), é possível acompanhar todo o tráfego envolvido 
-em determinado site, bem como outras características, como [🔍Código de Estado (Status Code)](https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes),
+Isso é facilmente observado através das ferramentas de desenvolvedor do seu navegador, onde é possível acompanhar todo o 
+tráfego envolvido em determinado site, bem como outras características, como [🔍Código de Estado (Status Code)](https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes),
 [🔍entre outros](https://developer.chrome.com/docs/devtools/network?hl=pt-br).
 
 Cada requisição exibida na lista refere-se a uma chamada única, podendo um site ter dezenas de requisições que compõe seu 
@@ -24,11 +23,15 @@ conteúdo, bem como execuções regulares proveniente de [🔍chamadas assíncro
 
 Dentre várias informações fornecidas, vamos destacar aqui o **Cabeçalho de Resposta**.
 
+>**Aviso Legal:** o OWASP não endossa nenhum Vendedor ou Ferramenta ao mencioná-lo. Se ele é citado, é porque acreditamos
+> que esteja disponível gratuitamente para uso em projetos de código aberto. Sinta-se livre para usar a ferramenta que
+> mais se adequa a sua necessidade.
+
 ## Cabeçalho de Resposta
 Um conjunto de informações adicionais passadas entre cliente e servidor. Ainda que seja personalizável, há um [🔍padrão bem definido](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers)
 sobre sua estrutura, conteúdo e uso. Por conta dessa flexibilidade é que invasores tentam manipular esses cabeçalhos a seu favor.
 
-Para observá-los, mantenha o **DevTools** aberto, com foco na aba **Rede (Network)**, e acesse o site `https://google.com`. O primeiro item
+Para observá-los, usaremos o [🔍Google Chrome DevTools](https://developer.chrome.com/docs/devtools/open?hl=pt-br). Pela aba [🔍Rede (Network)](https://developer.chrome.com/docs/devtools/network?hl=pt-br), mantenha o **DevTools** aberto, com foco na aba **Rede (Network)**, e acesse o site `https://google.com`. O primeiro item
 da lista será o site que você digitou. Ao clicar sobre ele, você terá acesso a primeira aba, chamada **Cabeçalho (Header)**. 
 Nessa lista fornecida, localize a seção **Cabeçalho de Resposta (Response Header)**.
 
