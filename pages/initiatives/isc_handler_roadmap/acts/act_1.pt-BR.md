@@ -5,7 +5,7 @@ title: "Ato I - Observando por trás da cortina"
 author: "Raphael Moreira"
 contributors: 
 permalink: /initiatives/isc_handler_roadmap/acts
-tags: ["cybersecurity", "http", "network", "response header", "xss", ""]
+tags: ["cybersecurity", "protocol", http", "network", "response header", "xss", ""]
 
 ---
 
@@ -49,5 +49,5 @@ acessíveis e como a preocupação é importante, afinal, se a porta está dispo
 
 ---
 
-| [⬆️Retornar ao índice](../index.pt-BR.md) | [Próximo ato➡️](act_2.pt-BR.md) |
-|-------------------------------------------|---------------------------------|
+| [⬆️Retornar ao índice](../index.pt-BR.md) | [Ir para o Ato 2➡️](act_2.pt-BR.md) |
+|-------------------------------------------|-------------------------------------|

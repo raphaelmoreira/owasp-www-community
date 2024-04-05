@@ -5,7 +5,7 @@ title: "ISC - O roteiro para se tornar um Handler"
 author: "Raphael Moreira"
 contributors: 
 permalink: /initiatives/isc_handler_roadmap/
-tags: ["cybersecurity"]
+tags: ["cybersecurity", "roadmap"]
 
 ---
 

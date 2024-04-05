@@ -5,7 +5,7 @@ title: "Ato II - Portas, portas e mais portas"
 author: "Raphael Moreira"
 contributors: 
 permalink: /initiatives/isc_handler_roadmap/acts
-tags: ["cybersecurity", "port", "tcp", "udp", "scan", "nmap"]
+tags: ["cybersecurity", "ip", "port", "dns", tcp", "udp", "scan", "nmap"]
 
 ---
 
@@ -47,12 +47,6 @@ ponto A ao ponto B.
 
 A sua própria máquina, inclusive, possui um IP, e você pode conferir isso da seguinte forma:
 
-**Windows - prompt de comando**
-```bash
-ipconfig
-```
-
-**Linux - terminal/shell**
 ```bash
 ipconfig
 ```
@@ -74,12 +68,6 @@ na estrutura `IP:Porta`, conforme exemplificado abaixo:
 ```
 Você pode averiguar isso neste momento, através do comando:
 
-**Windows - prompt de comando**
-```bash
-netstat -na
-```
-
-**Linux - terminal/shell**
 ```bash
 netstat -na
 ```
