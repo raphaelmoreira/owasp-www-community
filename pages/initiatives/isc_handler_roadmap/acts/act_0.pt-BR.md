@@ -42,9 +42,11 @@ que vamos mostrar no decorrer dessa iniciativa, requer elevação de privilégio
 recomendável que você não use o usuário **root** para isso. Procure criar outro, marcando-o como **Administrador**. Embora 
 pareça a mesma coisa, não é. O usuário **root** possui privilégios que podem te colocar em risco, se usado de maneira incorreta. 
 
+
 Outro item relevante é ativar a criptograria da imagem virtualizada. Ainda que você esteja em estágios iniciais de
 aprendizado, procure internalizar a cultura de proteger também o ambiente em que você irá trabalhar, já que somente assim
 você garantirá, desde o início, a privacidade do seu trabalho.
+
 ---
 
 | [⬆️Retornar ao índice](../index.pt-BR.md) | [Ir para o Ato 1](act_1.pt-BR.md)➡️ |
