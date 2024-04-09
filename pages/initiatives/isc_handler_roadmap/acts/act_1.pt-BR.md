@@ -5,7 +5,7 @@ title: "Ato I - Observando por trás da cortina"
 author: "Raphael Moreira"
 contributors: 
 permalink: /initiatives/isc_handler_roadmap/acts
-tags: ["cybersecurity", "protocol", http", "network", "response header", "xss", ""]
+tags: ["cybersecurity", "protocol", http", "network", "response header", "xss"]
 
 ---
 
@@ -13,23 +13,21 @@ tags: ["cybersecurity", "protocol", http", "network", "response header", "xss", 
 
 [🇺🇸](act_1.md) | 🇧🇷
 # Ato I - Observando por trás da cortina
-Toda vez que um site é acessado, muita coisa ocorre por baixo dos panos, sob o protocolo [🔍Http](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
-Isso é facilmente observado através das ferramentas de desenvolvedor do seu navegador, onde é possível acompanhar todo o 
-tráfego envolvido em determinado site, bem como outras características, como [🔍Código de Estado (Status Code)](https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes),
-[🔍entre outros](https://developer.chrome.com/docs/devtools/network?hl=pt-br).
+Sempre que um site é acessado, uma série de processos ocorre nos bastidores, seguindo o protocolo [🔍Http](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Essa dinâmica 
+é facilmente visível por meio das ferramentas de desenvolvedor do seu navegador, onde é possível monitorar todo o tráfego 
+relacionado a um determinado site, incluindo características como [🔍Código de Estado (Status Code)](https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes), [🔍entre outros](https://developer.chrome.com/docs/devtools/network?hl=pt-br).
 
-Cada requisição exibida na lista refere-se a uma chamada única, podendo um site ter dezenas de requisições que compõe seu 
-conteúdo, bem como execuções regulares proveniente de [🔍chamadas assíncronas](https://pt.wikipedia.org/wiki/Comunica%C3%A7%C3%A3o_ass%C3%ADncrona).
-
-Dentre várias informações fornecidas, vamos destacar aqui o **Cabeçalho de Resposta**.
+Cada entrada na lista de requisições representa uma interação única, sendo possível que um site tenha dezenas delas para 
+formação do conteúdo. Dentre as diversas informações fornecidas, vamos dar destaque aqui ao **Cabeçalho de Resposta**.
 
 >**Aviso Legal:** o OWASP não endossa nenhum Vendedor ou Ferramenta ao mencioná-lo. Se ele é citado, é porque acreditamos
 > que esteja disponível gratuitamente para uso em projetos de código aberto. Sinta-se livre para usar a ferramenta que
 > mais se adequa a sua necessidade.
 
 ## Cabeçalho de Resposta
-Um conjunto de informações adicionais passadas entre cliente e servidor. Ainda que seja personalizável, há um [🔍padrão bem definido](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers)
-sobre sua estrutura, conteúdo e uso. Por conta dessa flexibilidade é que invasores tentam manipular esses cabeçalhos a seu favor.
+Trata-se de um conjunto de informações adicionais passadas entre cliente e servidor. Ainda que seja personalizável, há um [🔍padrão bem definido](https://developer.mozilla.org/en-US/docs/Glossary/Response_header)
+sobre sua estrutura, conteúdo e uso. Por conta dessa flexibilidade, é comum invasores tentarem manipulá-lo, logo, é importante 
+que os desenvolvedores se atentem a não confiara fim de  esses cabeçalhos a seu favor.
 
 Para observá-los, usaremos o [🔍Google Chrome DevTools](https://developer.chrome.com/docs/devtools/open?hl=pt-br). Pela aba [🔍Rede (Network)](https://developer.chrome.com/docs/devtools/network?hl=pt-br), mantenha o **DevTools** aberto, com foco na aba **Rede (Network)**, e acesse o site `https://google.com`. O primeiro item
 da lista será o site que você digitou. Ao clicar sobre ele, você terá acesso a primeira aba, chamada **Cabeçalho (Header)**. 
