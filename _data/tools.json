@@ -1198,11 +1198,11 @@
    },
    {
       "title": "CodeSonar",
-      "url": "https://www.grammatech.com/products/source-code-analysis",
-      "owner": "GrammaTech",
+      "url": "https://codesecure.com/our-products/codesonar/",
+      "owner": "CodeSecure",
       "license": "Commercial",
       "platforms": null,
-      "note": "tool that supports C, C++, Java and C# and maps against the OWASP top 10 vulnerabilities.",
+      "note": "CodeSonar is a static code analysis solution that helps you find and understand quality and security defects in your source code or binaries. It supports C/C++, Java, C#, Kotlin, Python, Go, Rust, JavaScript, and TypScript.",
       "type": "SAST"
    },
    {
@@ -1952,5 +1952,23 @@
       "platforms": "SaaS",
       "note": "Arnica is an end to end security solution that includes SAST, SCA, IaC, Licensing, Reputation, Hardcoded Secrets Mitigation, Permissions and more. Arnica's pipelineless approach empowers developers through automated mitigations and real time feedback.",
       "type": "SAST"
+   },
+   {
+      "title": "Static application security testing Online",
+      "url": "https://sast.online",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Examine the Android Source code to identify any security issues or vulnerabilities.",
+      "type": "SAST"
+   },
+   {
+      "title": "Nikto Online",
+      "url": "https://nikto.online",
+      "owner": "PENTESTON",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Online Nikto web server scanner designed to assess the security of web servers by identifying potential vulnerabilities and misconfigurations.",
+      "type": "DAST"
    }
 ]
