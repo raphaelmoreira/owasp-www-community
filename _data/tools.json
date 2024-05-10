@@ -1,5 +1,14 @@
 [
    {
+      "title": "Codename SCNR",
+      "url": "https://ecsypno.com/pages/codename-scnr",
+      "owner": "Ecsypno",
+      "license": "Commercial",
+      "platforms": "Linux",
+      "note": "Codename SCNR is an intelligent and unrestricted WebAppSec scanner capable of handling modern web applications. (Free Community edition available)",
+      "type": "DAST"
+   },
+   {
       "title": "Cycode | Complete ASPM",
       "url": "https://www.cycode.com",
       "owner": null,
@@ -199,11 +208,11 @@
    },
    {
       "title": "AppTrana",
-      "url": "https://www.indusface.com/website-security-scan.php",
+      "url": "https://www.indusface.com/register/web-application-scanning-free-trial.php",
       "owner": "Indusface",
       "license": "Free",
       "platforms": "SaaS",
-      "note": null,
+      "note": "Free trial available",
       "type": "DAST"
    },
    {
@@ -825,15 +834,6 @@
       "license": "Commercial",
       "platforms": "SaaS",
       "note": "20% off with OWASP20",
-      "type": "DAST"
-   },
-   {
-      "title": "w3af",
-      "url": "http://www.w3af.org/",
-      "owner": "w3af.org",
-      "license": "Open Source",
-      "platforms": "Linux and Mac",
-      "note": "GPLv2.0",
       "type": "DAST"
    },
    {
